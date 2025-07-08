@@ -1,0 +1,58 @@
+{
+  "name": "ai-content-tagging-tools",
+  "version": "0.1.0",
+  "description": "Reference implementation and tools for AI Content Classification and Tagging System RFC draft",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "demo": "node demo-web/server.js",
+    "lint": "eslint lib/ cli/ demo-web/",
+    "validate": "node cli/validate-content.js",
+    "tag": "node cli/tag-content.js"
+  },
+  "bin": {
+    "tag-content": "./cli/tag-content.js",
+    "validate-content": "./cli/validate-content.js",
+    "extract-metadata": "./cli/extract-metadata.js"
+  },
+  "keywords": [
+    "ai",
+    "content-tagging",
+    "metadata",
+    "rfc",
+    "machine-learning",
+    "dataset",
+    "provenance"
+  ],
+  "author": "Keenan Williams <keenanwilliams@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keewillidevnet/ai-content-tagging-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keewillidevnet/ai-content-tagging-tools/issues"
+  },
+  "homepage": "https://github.com/keewillidevnet/ai-content-tagging-tools#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5",
+    "node-id3": "^0.2.6",
+    "exif-parser": "^0.1.12",
+    "piexifjs": "^1.0.6",
+    "xml2js": "^0.6.2",
+    "commander": "^11.0.0",
+    "crypto": "^1.0.1",
+    "joi": "^17.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "eslint": "^8.45.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
