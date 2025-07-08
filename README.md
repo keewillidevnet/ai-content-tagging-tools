@@ -4,7 +4,7 @@ Reference implementation and tools for RFC draft: AI Content Classification and 
 AI Content Tagging Tools
 Reference implementation and tools for the AI Content Classification and Tagging System RFC draft.
 
-Repository Structure
+# Repository Structure
 <pre>
 ai-content-tagging-tools/
 ├── README.md
@@ -48,7 +48,7 @@ ai-content-tagging-tools/
     └── fixtures/
 </pre>
 
-Quick Start
+# Quick Start
 bash# Clone the repository
 git clone https://github.com/keewillidevnet/ai-content-tagging-tools.git
 cd ai-content-tagging-tools
@@ -92,17 +92,20 @@ Core Features
 | CLI Tools | ⏳ Planned | Command-line utilities |
 
 
-Contributing
+## Contributing
+
 This is a reference implementation for an IETF Internet-Draft. Contributions welcome!
 
-Fork the repository
-Create a feature branch
-Add tests for new functionality
-Submit a pull request
+1. Fork the repository
+2. Create a feature branch
+3. Add tests for new functionality
+4. Submit a pull request
 
-License
+## License
+
 MIT License - see LICENSE file for details.
-Related
 
-IETF Internet-Draft: AI Content Classification System
-RFC Implementation Guidelines
+## Related
+
+- [IETF Internet-Draft: AI Content Classification System](link-to-draft)
+- [RFC Implementation Guidelines](docs/api.md)
