@@ -3,6 +3,7 @@ Reference implementation and tools for RFC draft: AI Content Classification and 
 
 AI Content Tagging Tools
 Reference implementation and tools for the AI Content Classification and Tagging System RFC draft.
+
 Repository Structure
 <pre>
 ai-content-tagging-tools/
@@ -66,12 +67,16 @@ npx tag-content --input file.txt --origin human --author "Jane Doe"
 npx validate-content --input tagged-file.txt
 Core Features
 
-✅ Metadata Creation: Generate RFC-compliant metadata for any content
-✅ Multi-Format Support: HTTP headers, XML sidecars, HTML meta, ID3, EXIF
-✅ Cryptographic Validation: Digital signatures and integrity checking
-✅ Web Demo: Interactive tool for tagging and validating content
-✅ CLI Tools: Command-line utilities for batch processing
-✅ Schema Validation: Ensure metadata compliance with the RFC spec
+
+## Core Features
+
+- ✅ **Metadata Creation**: Generate RFC-compliant metadata for any content
+- ✅ **Multi-Format Support**: HTTP headers, XML sidecars, HTML meta, ID3, EXIF
+- ✅ **Cryptographic Validation**: Digital signatures and integrity checking
+- ✅ **Web Demo**: Interactive tool for tagging and validating content
+- ✅ **CLI Tools**: Command-line utilities for batch processing
+- ✅ **Schema Validation**: Ensure metadata compliance with the RFC spec
+
 
 ## Implementation Status
 
