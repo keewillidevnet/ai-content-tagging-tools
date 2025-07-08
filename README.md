@@ -73,8 +73,20 @@ Core Features
 ✅ CLI Tools: Command-line utilities for batch processing
 ✅ Schema Validation: Ensure metadata compliance with the RFC spec
 
-Implementation Status
-ComponentStatusDescriptionCore Metadata In ProgressBasic metadata schema and utilitiesHTTP Headers PlannedExpress middleware and parsingXML Sidecars PlannedSidecar file generation and parsingHTML Meta Tags PlannedMeta tag injection and extractionAudio ID3 Tags PlannedID3v2 tag handlingImage EXIF/XMP PlannedImage metadata embeddingWeb Demo PlannedInteractive demonstration toolCLI Tools⏳ PlannedCommand-line utilities
+## Implementation Status
+
+| Component | Status | Description |
+| --- | --- | --- |
+| Core Metadata | 🚧 In Progress | Basic metadata schema and utilities |
+| HTTP Headers | ⏳ Planned | Express middleware and parsing |
+| XML Sidecars | ⏳ Planned | Sidecar file generation and parsing |
+| HTML Meta Tags | ⏳ Planned | Meta tag injection and extraction |
+| Audio ID3 Tags | ⏳ Planned | ID3v2 tag handling |
+| Image EXIF/XMP | ⏳ Planned | Image metadata embedding |
+| Web Demo | ⏳ Planned | Interactive demonstration tool |
+| CLI Tools | ⏳ Planned | Command-line utilities |
+
+
 Contributing
 This is a reference implementation for an IETF Internet-Draft. Contributions welcome!
 
