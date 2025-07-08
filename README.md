@@ -1,7 +1,4 @@
-# ai-content-tagging-tools
-Reference implementation and tools for RFC draft: AI Content Classification and Tagging System
-
-AI Content Tagging Tools
+#AI Content Tagging Tools
 Reference implementation and tools for the AI Content Classification and Tagging System RFC draft.
 
 # Repository Structure
