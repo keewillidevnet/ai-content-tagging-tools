@@ -7,6 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "demo": "node demo-web/server.js",
+    "demo-middleware": "node examples/http-middleware-demo.js",
     "lint": "eslint lib/ cli/ demo-web/",
     "validate": "node cli/validate-content.js",
     "tag": "node cli/tag-content.js"
