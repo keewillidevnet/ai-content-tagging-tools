@@ -47,24 +47,34 @@ ai-content-tagging-tools/
     └── fixtures/
 </pre>
 
+## Quick Start
 
-# Clone the repository
+### Clone the repository
+```bash
 git clone https://github.com/yourusername/ai-content-tagging-tools.git
 cd ai-content-tagging-tools
+```
 
-# Install dependencies
+### Install dependencies
+```bash
 npm install
+```
 
-# Run tests
+### Run tests
+```bash
 npm test
+```
 
-# Start web demo
+### Start web demo
+```bash
 npm run demo
+```
 
-# Use CLI tools
+### Use CLI tools
+```bash
 npx tag-content --input file.txt --origin human --author "Jane Doe"
 npx validate-content --input tagged-file.txt
-
+```
 
 
 ## Core Features
