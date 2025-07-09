@@ -1,6 +1,6 @@
 # AI Content Tagging Tools
  
-Reference implementation and tools for the AI Content Classification and Tagging System RFC draft.
+Combat AI model collapse with RFC-compliant content tagging. Professional toolkit for content authenticity, dataset integrity, and provenance tracking. Includes drag-and-drop web interface, CLI utilities, and cryptographic verification.
 
 ## Repository Structure
 
