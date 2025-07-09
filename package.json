@@ -36,20 +36,21 @@
     "url": "https://github.com/keewillidevnet/ai-content-tagging-tools/issues"
   },
   "homepage": "https://github.com/keewillidevnet/ai-content-tagging-tools#readme",
- "dependencies": {
-  "express": "^4.19.2",
-  "multer": "^1.4.4",
-  "node-id3": "^0.2.6",
-  "exif-parser": "^0.1.12",
-  "xml2js": "^0.6.2",
-  "commander": "^12.1.0",
-  "joi": "^17.13.3"
-},
+  "dependencies": {
+    "commander": "^12.1.0",
+    "exif-parser": "^0.1.12",
+    "express": "^4.19.2",
+    "glob": "^11.0.3",
+    "joi": "^17.13.3",
+    "multer": "^1.4.4",
+    "node-id3": "^0.2.6",
+    "xml2js": "^0.6.2"
+  },
   "devDependencies": {
-    "jest": "^29.6.2",
     "eslint": "^8.45.0",
-    "supertest": "^6.3.3",
-    "nodemon": "^3.0.1"
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
   },
   "engines": {
     "node": ">=16.0.0"
