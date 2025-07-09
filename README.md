@@ -77,6 +77,7 @@ npx validate-content --input tagged-file.txt
 - ✅ **Schema Validation**: Ensure metadata compliance with the RFC spec
 
 
+
 ## Implementation Status
 
 | Component | Status | Description |
