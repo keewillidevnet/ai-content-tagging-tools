@@ -92,14 +92,14 @@ npx validate-content --input tagged-file.txt
 
 | Component | Status | Description |
 | --- | --- | --- |
-| Core Metadata | 🚧 In Progress | Basic metadata schema and utilities |
-| HTTP Headers | ⏳ Planned | Express middleware and parsing |
-| XML Sidecars | ⏳ Planned | Sidecar file generation and parsing |
-| HTML Meta Tags | ⏳ Planned | Meta tag injection and extraction |
+| Core Metadata | ✅ Complete | Full RFC metadata schema and utilities |
+| CLI Tools | ✅ Complete | Tag, validate, extract, and HTML meta tools |
+| XML Sidecars | ✅ Complete | Sidecar file generation and parsing |
+| HTML Meta Tags | ✅ Complete | Professional injection and extraction tool |
+| HTTP Headers | ✅ Complete | Express middleware and parsing |
+| Web Demo | ✅ Complete | Interactive demonstration tool |
 | Audio ID3 Tags | ⏳ Planned | ID3v2 tag handling |
 | Image EXIF/XMP | ⏳ Planned | Image metadata embedding |
-| Web Demo | ⏳ Planned | Interactive demonstration tool |
-| CLI Tools | ⏳ Planned | Command-line utilities |
 
 
 ## Contributing
