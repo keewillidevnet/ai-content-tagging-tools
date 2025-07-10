@@ -40,11 +40,11 @@ async function tagAudioFile() {
       preserveExisting: true
     });
 
-    // Load audio file (example path)
-    const audioPath = '../sample-files/test-audio.mp3';
+    // Create dummy audio data for demo
+    const dummyAudioData = Buffer.alloc(1024); // 1KB dummy audio
     
     // Embed metadata with signature
-    const taggedAudio = await audioHandler.embedMetadata(audioPath, metadata, {
+    const taggedAudio = await audioHandler.embedMetadata(dummyAudioData, metadata, {
       includeChecksum: true,
       privateKey: process.env.PRIVATE_KEY // Optional signing
     });
@@ -101,11 +101,15 @@ async function tagImageFile() {
       preserveExisting: true
     });
 
-    // Load image file
-    const imagePath = '../sample-files/test-image.jpg';
-    
+    // Create dummy JPEG data for demo
+    const dummyImageData = Buffer.concat([
+    Buffer.from([0xFF, 0xD8, 0xFF, 0xE0]), // JPEG SOI + APP0
+    Buffer.alloc(1024), // 1KB dummy image data
+    Buffer.from([0xFF, 0xD9]) // JPEG EOI
+    ]);
+   
     // Embed metadata
-    const taggedImage = await imageHandler.embedMetadata(imagePath, metadata, {
+    const taggedImage = await imageHandler.embedMetadata(dummyImageData, metadata, {
       includeChecksum: true
     });
 
